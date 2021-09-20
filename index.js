@@ -34,10 +34,13 @@ function changeOpacity(){
 }
 
 function questionAlert(){
+    /** 
     bootbox.alert({
         title: '¿Eres nuevo(a)?', 
         message: 'Si es tu primera vez ingresando a esta plataforma, ingresa tu cédula y selecciona la opción "Validar cédula", luego digita tu clave. Si no la tienes, escribe una clave, confírmala y selecciona "Generar clave". Una vez realizado el proceso, ingresarás de inmediato a nuestro sistema de pedidos.'
     })
+    */
+   alert('hola')
 }
 
 function hideNavbar(){ 
@@ -45,3 +48,13 @@ function hideNavbar(){
         document.getElementById('navbar').style.zIndex = "-1";
     } 
 } 
+
+function showNavbar(){ 
+    if (screen.height <= 480) { 
+        document.getElementById('navbar').style.zIndex = "1"; 
+    } 
+} 
+
+let inputCedula = document.getElementsByClassName('general_input')[0];
+
+
