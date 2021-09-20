@@ -154,7 +154,8 @@
         height: 100vh;
    }
    #login{
-        height: 65vh;
+        height: 70vh;
         background-color: rgb(51, 128, 0);
+        justify-content: flex-start;
     }
 }
