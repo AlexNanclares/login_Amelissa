@@ -45,13 +45,13 @@ function questionAlert(){
 
 function hideNavbar(){ 
     if (screen.height <= 480){
-        document.getElementById('navbar').style.zIndex = "-1";
+        document.getElementsByClassName('image_full')[0].style.zIndex = "-1";
     } 
 } 
 
 function showNavbar(){ 
     if (screen.height <= 480) { 
-        document.getElementById('navbar').style.zIndex = "1"; 
+        document.getElementsByClassName('image_full')[0].style.zIndex = "1"; 
     } 
 } 
 
