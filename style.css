@@ -154,8 +154,7 @@
         height: 100vh;
    }
    #login{
-        height: 75vh;
+        height: 63vh;
         justify-content: flex-start;
-        background-color: teal;
     }
 }
