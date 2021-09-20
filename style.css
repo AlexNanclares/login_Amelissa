@@ -142,5 +142,6 @@
     .image_full{
         height: 40vh;
         width: 100%;
+        position: sticky;
     }
 }
