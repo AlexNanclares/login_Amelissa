@@ -125,7 +125,7 @@
         width: 100%;
         flex-flow: row wrap;
         justify-content: center;
-        height: 50vh;
+        height: 60vh;
     }
     #login{
         height: 40vh;
@@ -140,7 +140,7 @@
         margin-top: unset;
     }
     .image_full{
-        height: 50vh;
+        height: 40vh;
         width: 100%;
     }
 }
