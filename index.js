@@ -1,3 +1,13 @@
+if(/Android [4-6]/.test(navigator.appVersion)) {
+    window.addEventListener("resize", function() {
+       if(document.activeElement.tagName=="INPUT" || document.activeElement.tagName=="TEXTAREA") {
+          window.setTimeout(function() {
+             document.activeElement.scrollIntoViewIfNeeded();
+          },0);
+       }
+    })
+}
+
 let arrayImg = [
                 'https://wallpaperaccess.com/full/2786602.jpg',
                 'https://www.teahub.io/photos/full/351-3518660_fondos-de-pantalla-de-perros-pug.jpg',
