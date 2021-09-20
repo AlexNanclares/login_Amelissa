@@ -126,6 +126,7 @@
         flex-flow: row wrap;
         justify-content: center;
         height: 55vh;
+        background-color: red;
     }
     #login{
         height: 40vh;
@@ -140,13 +141,14 @@
         margin-top: unset;
     }
     .image_full{
-        /* height: 45vh; */
-        /* width: 100%; */
-        /* position: fixed; */
-        /* top: 55vh; */
+         height: 45vh; 
+         width: 100%; 
+         position: fixed; 
+         top: 55vh; 
+        /*
         width: 100%;
         display: table;
         table-layout: fixed;
-        max-width: 100%;
+        */
     }
 }
