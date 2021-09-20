@@ -1,5 +1,5 @@
 if(/Android [4-6]/.test(navigator.appVersion)) {
-    alert('hola')
+    document.getElementsByClassName('image_full')[0].style.display = "none"
  }
 
 let arrayImg = [
