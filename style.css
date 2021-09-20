@@ -154,7 +154,7 @@
         height: 100vh;
    }
    #login{
-        height: 70vh;
-        background-color: teal;
+        height: 65vh;
+        background-color: rgb(51, 128, 0);
     }
 }
