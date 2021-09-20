@@ -1,12 +1,7 @@
-if(/Android [4-6]/.test(navigator.appVersion)) {
-    window.addEventListener("resize", function() {
-       if(document.activeElement.tagName=="INPUT" || document.activeElement.tagName=="TEXTAREA") {
-          window.setTimeout(function() {
-             document.activeElement.scrollIntoViewIfNeeded();
-          },0);
-       }
-    })
-}
+var fixed = document.querySelector(".fixed"),
+    distanceFromTop = fixed.getBoundingClientRect().top;
+fixed.style.top = distanceFromTop + 'px';
+fixed.style.bottom = 'auto';
 
 let arrayImg = [
                 'https://wallpaperaccess.com/full/2786602.jpg',
