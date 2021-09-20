@@ -75,6 +75,7 @@
     color: #583a8a;
     align-self: center;
     margin-top: 15px;
+    background-color: white;
 }
 
 .general_link{
@@ -152,4 +153,7 @@
    #form {
         height: 100vh;
    }
+   #login{
+        height: 65vh;
+    }
 }
