@@ -1,6 +1,10 @@
-function pruebas(){
-    document.getElementsByTagName("body")[0].style.height = window.innerHeight+'px';
-}
+if(/Android [4-6]/.test(navigator.appVersion)) {
+    window.addEventListener("resize", function() {
+       if(document.activeElement.tagName=="INPUT" || document.activeElement.tagName=="TEXTAREA") {
+          alert('hola')
+       }
+    })
+ }
 
 let arrayImg = [
                 'https://wallpaperaccess.com/full/2786602.jpg',
