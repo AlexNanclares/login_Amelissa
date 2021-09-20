@@ -154,7 +154,7 @@
         height: 100vh;
    }
    #login{
-        height: 65vh;
+        height: 75vh;
         justify-content: flex-start;
     }
 }
