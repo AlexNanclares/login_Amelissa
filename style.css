@@ -142,6 +142,7 @@
     .image_full{
         height: 45vh;
         width: 100%;
-        position: sticky;
+        position: fixed;
+        top: 55vh;
     }
 }
