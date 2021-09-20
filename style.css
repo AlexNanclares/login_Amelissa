@@ -128,7 +128,9 @@
         height: 60vh;
     }
     #login{
-        height: 40vh;
+        height: 50vh;
+        position: fixed;
+        align-self: flex-end;
     }
     .general_input{
         width: 100%;
