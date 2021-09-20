@@ -150,12 +150,5 @@
     .image_full{
         display: none;
    }
-   #form {
-        height: 100vh;
-   }
-   #login{
-        height: 70vh;
-        background-color: rgb(51, 128, 0);
-        justify-content: flex-start;
-    }
+   
 }
