@@ -150,5 +150,11 @@
     .image_full{
         display: none;
    }
-   
+   #form {
+        height: 100vh;
+   }
+   #login{
+        height: 70vh;
+        justify-content: flex-start;
+    }
 }
