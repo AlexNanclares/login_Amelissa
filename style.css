@@ -141,8 +141,11 @@
     }
     .image_full{
         height: 45vh;
+        /* width: 100%; */
+        /* position: fixed; */
+        /* top: 55vh; */
         width: 100%;
-        position: fixed;
-        top: 55vh;
+        display: table;
+        table-layout: fixed;
     }
 }
