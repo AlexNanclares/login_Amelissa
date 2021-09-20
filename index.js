@@ -1,7 +1,3 @@
-if(/Android [4-6]/.test(navigator.appVersion)) {
-    document.getElementsByClassName('image_full')[0].style.display = "none"
- }
-
 let arrayImg = [
                 'https://wallpaperaccess.com/full/2786602.jpg',
                 'https://www.teahub.io/photos/full/351-3518660_fondos-de-pantalla-de-perros-pug.jpg',

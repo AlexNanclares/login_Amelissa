@@ -126,29 +126,30 @@
         flex-flow: row wrap;
         justify-content: center;
         height: 55vh;
-        background-color: salmon;
     }
     #login{
         height: 40vh;
     }
     .general_input{
         width: 100%;
-        height: 30px;
+        height: 40px;
     }
     .general_button{
         width: 100%;
-        height: 30px;
+        height: 35px;
         margin-top: unset;
     }
     .image_full{
          height: 45vh; 
-         width: 100%; 
-         position: absolute; 
-         top: 55vh; 
-        /*
-        width: 100%;
-        display: table;
-        table-layout: fixed;
-        */
+         width: 100%;  
     }
+}
+
+@media only screen and (max-height : 512px) {
+    .image_full{
+        display: none;
+   }
+   #form {
+        height: 80vh;
+   }
 }
