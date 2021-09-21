@@ -41,17 +41,6 @@ html, body{
     width: 70%;
     background: url("https://s1.1zoom.me/b5050/302/273702-alexfas01_1920x1200.jpg") no-repeat center;
     background-size: cover;
-    width: 100%;
-    position:absolute;
-    left:0px;
-    bottom:0px;
-    height: 40px;
-    margin: auto;
-    overflow: hidden;
-    background:#2E2E2E;
-    text-align:center;
-    line-height: 15px;
-    color: #fff;
 }
 
 .general_input{
@@ -145,7 +134,6 @@ html, body{
         flex-flow: row wrap;
         justify-content: center;
         height: 55vh;
-        background-color: hotpink;
     }
     #login{
         height: 40vh;
