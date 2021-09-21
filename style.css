@@ -146,15 +146,3 @@
     }
 }
 
-@media only screen and (max-height : 512px) {
-    .image_full{
-        display: none;
-   }
-   #form {
-        height: 100vh;
-   }
-   #login{
-        height: 73vh;
-        justify-content: flex-start;
-    }
-}
