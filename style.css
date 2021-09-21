@@ -33,6 +33,7 @@ html, body{
     flex-direction: column;
     height: 70%;
     justify-content: center;
+    margin-top: 10px;
 }
 
 .image_full{
@@ -58,16 +59,18 @@ html, body{
     color: #583a8a;
     font-weight: 100;
     margin-bottom: 20px;
+    font-size: 22px;
 }
 
 .main_title{
     font-weight: 900;
     margin-bottom: unset;
+    font-size: 28.5px;
 }
 
 .general_button{
     width: 80%;
-    height: 5%;
+    height: 35px;
     border-radius: 10px;
     background-color: #583a8a;
     color: white;
