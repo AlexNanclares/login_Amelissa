@@ -41,6 +41,7 @@ html, body{
     width: 70%;
     background: url("https://s1.1zoom.me/b5050/302/273702-alexfas01_1920x1200.jpg") no-repeat center;
     background-size: cover;
+    position: relative;
 }
 
 .general_input{
@@ -134,6 +135,7 @@ html, body{
         flex-flow: row wrap;
         justify-content: center;
         height: 55vh;
+        background-color: hotpink;
     }
     #login{
         height: 40vh;
