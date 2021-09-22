@@ -115,7 +115,6 @@
         width: 100%;
         justify-content: center;
         height: 55vh;
-        padding: unset;
     }
     #login{
         height: 80%;
@@ -138,11 +137,10 @@
         flex-flow: column;
     }
     #form {
-        background-color: cyan;
+        background-color: lawngreen;
         width: 100%;
         justify-content: center;
         height: 100vh;
-        padding: unset;
     }
     #login{
         height: 80%;
