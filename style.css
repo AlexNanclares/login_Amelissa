@@ -13,7 +13,6 @@
     justify-content: flex-end;
 }
 #form {
-    background-color: red;
     width: 30%;
     display: flex;
     flex-flow: column wrap;
@@ -96,9 +95,6 @@
     100% {opacity: 1;}
 }
 @media (min-width: 481px) and (max-width: 767px) {
-    #form{
-        background-color: royalblue;
-    }
     .general_input{
         width: 90%
     }
@@ -111,7 +107,6 @@
         flex-flow: column;
     }
     #form {
-        background-color: seagreen;
         width: 100%;
         justify-content: center;
         height: 55vh;
@@ -137,7 +132,6 @@
         flex-flow: column;
     }
     #form {
-        background-color: lawngreen;
         width: 100%;
         justify-content: center;
         height: 100vh;
