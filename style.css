@@ -141,10 +141,10 @@
         width: 100%;
         justify-content: center;
         height: 100vh;
-        padding: unset;
     }
     #login{
         height: 80%;
+        justify-content: flex-start;
     }
     .general_input{
         width: 55%;
