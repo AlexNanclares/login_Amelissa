@@ -141,6 +141,7 @@
         width: 100%;
         justify-content: center;
         height: 100vh;
+        padding: unset;
     }
     #login{
         height: 80%;
